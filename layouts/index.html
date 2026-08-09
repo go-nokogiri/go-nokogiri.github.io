@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ .Site.Title }} — Pure-Go XML/HTML + XPath.</title>
+<meta name="description" content="Pure-Go XML/HTML + XPath.">
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+<link rel="stylesheet" href="{{ "css/brand.css" | relURL }}">
+<script src="{{ "js/theme.js" | relURL }}"></script>
+</head><body>
+<section class="hero">
+  <button id="themebtn" class="theme" type="button">Theme: System</button>
+  <img src="{{ "img/go-nokogiri-white.png" | relURL }}" alt="go-nokogiri">
+  <h1>go-nokogiri</h1>
+  <p>Pure-Go XML/HTML + XPath.</p>
+  <div class="btns">
+    <a class="btn btn-solid" href="https://go-nokogiri.github.io/docs/">Documentation</a>
+    <a class="btn btn-ghost" href="https://github.com/go-nokogiri">GitHub</a>
+  </div>
+</section>
+<div class="wrap">
+  <div class="panel">
+    <h2>What is go-nokogiri?</h2>
+    <p>go-nokogiri is a pure-Go (CGO_ENABLED=0) XML/HTML parser with XPath and CSS queries and libxml2-faithful serialization — the parsing and DOM core in the Nokogiri tradition, with no libxml2 and no cgo.</p>
+  </div>
+  <h2 class="section">Packages</h2>
+  <p class="sub">{{ len site.Data.pkgs.packages }} module(s) — generated from the org's repos.</p>
+  <div class="grid">
+    <div class="card"><div class="chip">NK</div><div class="nm">nokogiri</div><div class="ds">XML/HTML parser + XPath/CSS queries + libxml2-faithful serialization (Nokogiri-class).</div><div class="lk"><a href="https://github.com/go-nokogiri/nokogiri">GitHub</a> · <a href="https://pkg.go.dev/github.com/go-nokogiri/nokogiri">pkg.go.dev</a></div></div>
+  </div>
+</div>
+<footer>Built with Hugo · Pure Go, CGO=0 · Branding from <a href="https://github.com/go-nokogiri/brand">go-nokogiri/brand</a></footer>
+</body></html>

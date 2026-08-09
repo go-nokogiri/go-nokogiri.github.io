@@ -1,0 +1,2 @@
+packages:
+  - { name: "nokogiri", desc: "XML/HTML parser + XPath/CSS queries + libxml2-faithful serialization (Nokogiri-class).", url: "https://github.com/go-nokogiri/nokogiri", doc: "https://pkg.go.dev/github.com/go-nokogiri/nokogiri" }
